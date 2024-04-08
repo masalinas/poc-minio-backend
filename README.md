@@ -4,7 +4,7 @@ PoC Minio Backend
 ## Dependencies
 ```sh
 $ pip install flask => Flask Dependency
-$ pip install lask-cors => Flask CORD Dependency
+$ pip install flask-cors => Flask CORD Dependency
 $ pip install minio  => minio Dependency
 $ pip install urllib3==1.26.6 => remove warning for openssl
 ```
