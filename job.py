@@ -11,9 +11,17 @@ from minio.error import S3Error
 app = Flask(__name__)
 CORS(app)
 
+# Mac credentials
+#_client = Minio("localhost:9000",
+#    access_key="BsvW9jlpYX8TvD9F",
+#    secret_key="HrGdJapKsXbKEcXABWNQ2CO15v3y9MMk",
+#    cert_check=False
+#)
+
+# Linux credentials
 _client = Minio("localhost:9000",
-    access_key="BsvW9jlpYX8TvD9F",
-    secret_key="HrGdJapKsXbKEcXABWNQ2CO15v3y9MMk",
+    access_key="gl8rbGORHSpxmg1V",
+    secret_key="8WphDMckYqRb29s43SzA4trsV2GgaQRc",
     cert_check=False
 )
 
